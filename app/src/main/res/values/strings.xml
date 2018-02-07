@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AnimeWallpaperApp</string>
+    <string name="image">image</string>
+    <string name="character_name">Character name</string>
+    <string name="main_label_content">Categories</string>
+    <string name="loli_text">Loli</string>
+    <string name="blond_text">Blond</string>
+    <string name="traps_text">Traps</string>
+    <string name="monster_text">Monster girls</string>
+</resources>
