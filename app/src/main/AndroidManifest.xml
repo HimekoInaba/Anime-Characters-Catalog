@@ -21,6 +21,16 @@
                 <action android:name="android.intent.action.CALL_BUTTON"></action>
             </intent-filter>
         </activity>
+        <activity android:name="com.example.stusupbekov.animeCharactersCatalog.activity.RegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_BUTTON"></action>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.stusupbekov.animeCharactersCatalog.activity.MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_BUTTON"></action>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

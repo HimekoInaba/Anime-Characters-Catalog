@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/menu_layout"
+tools:context="com.example.stusupbekov.animeCharactersCatalog.activity.CharacterActivity">
+
+<TextView
+    android:id="@+id/main_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="44dp"
+    android:text="@string/main_label_content" />
+
+<Button
+    android:id="@+id/loli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/main_label"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="38dp"
+    android:text="@string/loli_text" />
+
+<Button
+    android:id="@+id/blond"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@+id/loli"
+    android:layout_below="@+id/loli"
+    android:layout_marginTop="35dp"
+    android:text="@string/blond_text" />
+
+<Button
+    android:id="@+id/trap"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignStart="@+id/blond"
+    android:layout_below="@+id/blond"
+    android:layout_marginTop="29dp"
+    android:text="@string/traps_text" />
+
+<Button
+    android:id="@+id/monster"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/trap"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="33dp"
+    android:text="@string/monster_text" />
+</RelativeLayout>
+

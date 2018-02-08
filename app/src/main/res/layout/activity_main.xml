@@ -1,54 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
-    tools:context="com.example.stusupbekov.animeCharactersCatalog.activity.CharacterActivity">
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/username_fld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_fld"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/email_fld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/login_button"
+        android:layout_below="@+id/login_button"
+        android:layout_marginTop="33dp"
+        android:text="Register" />
 
     <TextView
-        android:id="@+id/main_label"
+        android:id="@+id/login_greeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp"
-        android:text="@string/main_label_content" />
-
-    <Button
-        android:id="@+id/loli"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/main_label"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp"
-        android:text="@string/loli_text" />
-
-    <Button
-        android:id="@+id/blond"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/loli"
-        android:layout_below="@+id/loli"
-        android:layout_marginTop="35dp"
-        android:text="@string/blond_text" />
-
-    <Button
-        android:id="@+id/trap"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/blond"
-        android:layout_below="@+id/blond"
         android:layout_marginTop="29dp"
-        android:text="@string/traps_text" />
+        android:text="Enter your login and password below:" />
 
-    <Button
-        android:id="@+id/monster"
+    <TextView
+        android:id="@+id/email_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/trap"
+        android:layout_below="@+id/login_greeting"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="33dp"
-        android:text="@string/monster_text" />
+        android:layout_marginTop="13dp"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/username_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_fld"
+        android:layout_centerHorizontal="true"
+        android:text="Password" />
 </RelativeLayout>
